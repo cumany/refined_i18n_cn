@@ -1,5 +1,33 @@
+
+
+
 # refined_i18n_cn
 confluence 插件 refined 主题汉化
+****************************************
+confluence refined 主题已经内置了对英语、德语、法语、西班牙语、芬兰语和荷兰语的语言支持。
+
+本人基于refined 7.0.5 版本做了一个中文语言包以供参考，refined 6.X以及之前的版本应该也可以使用。
+
+翻译不准确的地方欢迎提出修改。
+
+OriginalTheme_zh_CN.properties  文件
+
+放入jar包中 refined-for-confluence-7.0.5.jar\originaltheme\properties
+
+super_zh_CN.properties 文件
+
+放入 refined-for-confluence-7.0.5.jar\properties
+
+shared_zh_CN.properties 文件
+
+refined-for-confluence-7.0.5.jar.jar\properties\common-translations
+
+windows下可以用好压软件打开jar包 直接拖放即可。
+
+在confluence 插件管理中 上传修改后jar文件，即可看到效果。
+
+
+****************************************
 Refined has built in language support for English, German, French, Spanish, Finnish and Dutch. It is possible to create and include your own translation by following the below steps:
 
 Refined does not officially support including custom translations. When updating Refined, the below steps must be repeated again.
