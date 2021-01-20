@@ -43,7 +43,10 @@ When you are done, save the file as "`OriginalTheme_zh_CN.properties`", where `z
 Make sure your properties file and the plugin jar file (refinedwiki-original-theme.x.x.x.jar) is in the same folder. Open up a terminal, go to that folder and type:
 
 ```
-mkdir` `-p originaltheme``/properties``mv` `OriginalTheme_xx_XX.properties originaltheme``/properties``zip -g refinedwiki-original-theme-x.x.x.jar originaltheme``/properties/OriginalTheme_xx_XX``.properties
+
+mkdir -p originaltheme/properties
+mv OriginalTheme_xx_XX.properties originaltheme/properties
+zip -g refinedwiki-original-theme-x.x.x.jar originaltheme/properties/OriginalTheme_xx_XX.properties
 ```
 
 **
